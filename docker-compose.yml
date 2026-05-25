@@ -10,5 +10,9 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data
 
+# psql -h localhost -p 5432 -U admin -d questions_db 
+# consultar tablas \dt
+# consultar pregunta select * from questions where id = NUM;
+
 volumes:
   postgres_data:
