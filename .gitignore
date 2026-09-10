@@ -1,0 +1,8 @@
+# Entornos virtuales administrados por Poetry
+.venv/
+venv/
+
+# Cachés y artefactos locales
+.pytest_cache/
+__pycache__/
+*.py[cod]
